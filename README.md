@@ -1,6 +1,6 @@
-# Jekyll Serif Theme
+# Everberry Events
 
-Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive, blazing fast and artfully illustrated.
+Everberry Events - Cultivating Connections. A modern business website built with Jekyll.
 
 [Live Demo](https://jekyll-serif.netlify.app/) |
 [Zerostatic Themes](https://www.zerostatic.io)
@@ -88,9 +88,9 @@ For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would
 I've been building open source themes for all the main static site generators for over 4 years now. My premium themes allow me to continue to allocate time to maintain, improve and build new open source themes.
 
 1. Leave a star ⭐🙏🏻
-2. Make a contribution to this theme, add a feature, fix a bug, nothing is to small 
-2. Mention this theme on twitter [@zerostaticio](https://twitter.com/zerostaticio) 📢
-3. Purchase a premium theme 🔥
+2. Make a contribution to this theme, add a feature, fix a bug, nothing is to small
+3. Mention this theme on twitter [@zerostaticio](https://twitter.com/zerostaticio) 📢
+4. Purchase a premium theme 🔥
 
 ### All Jekyll Themes by Zerostatic
 
