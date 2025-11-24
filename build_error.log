@@ -1,0 +1,232 @@
+Configuration file: /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/_config.yml
+            Source: /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io
+       Destination: /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+29 │ @import "bootstrap/functions";
+   │         ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 29:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+32 │ @import "bootstrap-variables";
+   │         ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 32:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+35 │ @import "bootstrap/variables";
+   │         ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 35:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+36 │ @import "bootstrap/variables-dark";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 36:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+37 │ @import "bootstrap/maps";
+   │         ^^^^^^^^^^^^^^^^
+   ╵
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 37:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+13 │ $link-hover-color: lighten($primary, 10%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 13:20  root stylesheet
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 20.4%)
+color.adjust($color, $lightness: 10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+13 │ $link-hover-color: lighten($primary, 10%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 13:20  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+23 │ $sub-footer-background-color: darken($primary, 10%);
+   │                               ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 23:31  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -19.6153846154%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+23 │ $sub-footer-background-color: darken($primary, 10%);
+   │                               ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 23:31  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+22 │   $spacers: map-merge(
+   │ ┌───────────^
+23 │ │   (
+24 │ │     0: 0,
+25 │ │     1: 10px,
+26 │ │     2: 20px,
+27 │ │     3: 30px,
+28 │ │     4: 40px,
+29 │ │     5: 50px,
+30 │ │     6: 60px,
+31 │ │     7: 70px,
+32 │ │     8: 80px,
+33 │ │     9: 90px,
+34 │ │     10: 100px,
+35 │ │   ),
+36 │ │   $spacers
+37 │ │ );
+   │ └─^
+   ╵
+    _bootstrap-variables.scss 22:11                                                        @import
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 32:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+207 │   @return mix(white, $color, $weight);
+    │           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    bootstrap/_functions.scss 207:11                                                       tint-color()
+    bootstrap/_variables.scss 79:12                                                        @import
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 35:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+212 │   @return mix(black, $color, $weight);
+    │           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    bootstrap/_functions.scss 212:11                                                       shade-color()
+    bootstrap/_variables.scss 84:12                                                        @import
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 35:9  root stylesheet
+DEPRECATION WARNING [color-functions]: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+185 │     "r": red($color),
+    │          ^^^^^^^^^^^
+    ╵
+    bootstrap/_functions.scss 185:10                                                       luminance()
+    bootstrap/_functions.scss 174:8                                                        contrast-ratio()
+    bootstrap/_functions.scss 159:22                                                       color-contrast()
+    bootstrap/_variables.scss 846:42                                                       @import
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 35:9  root stylesheet
+DEPRECATION WARNING [color-functions]: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+186 │     "g": green($color),
+    │          ^^^^^^^^^^^^^
+    ╵
+    bootstrap/_functions.scss 186:10                                                       luminance()
+    bootstrap/_functions.scss 174:8                                                        contrast-ratio()
+    bootstrap/_functions.scss 159:22                                                       color-contrast()
+    bootstrap/_variables.scss 846:42                                                       @import
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 35:9  root stylesheet
+DEPRECATION WARNING [color-functions]: blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+187 │     "b": blue($color)
+    │          ^^^^^^^^^^^^
+    ╵
+    bootstrap/_functions.scss 187:10                                                       luminance()
+    bootstrap/_functions.scss 174:8                                                        contrast-ratio()
+    bootstrap/_functions.scss 159:22                                                       color-contrast()
+    bootstrap/_variables.scss 846:42                                                       @import
+    /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/assets/css/style.scss 35:9  root stylesheet
+WARNING: 231 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+bundler: failed to load command: jekyll (/home/cb-admin/gems/bin/jekyll)
+/home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/static_file.rb:199:in `utime': Operation not permitted @ apply2files - /mnt/c/Users/cb-admin/Documents/GitHub/everberry.github.io/_site/CNAME (Errno::EPERM)
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/static_file.rb:199:in `copy_file'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/static_file.rb:110:in `write'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/site.rb:231:in `block in write'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/site.rb:364:in `block in each_site_file'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/site.rb:364:in `each'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/site.rb:364:in `each_site_file'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/site.rb:230:in `write'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/site.rb:82:in `process'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/command.rb:28:in `process_site'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:65:in `build'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:36:in `process'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `each'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:18:in `block (2 levels) in init_with_program'
+	from /home/cb-admin/gems/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/cb-admin/gems/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/cb-admin/gems/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/cb-admin/gems/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/cb-admin/gems/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/cb-admin/gems/gems/jekyll-4.4.1/exe/jekyll:15:in `<top (required)>'
+	from /home/cb-admin/gems/bin/jekyll:25:in `load'
+	from /home/cb-admin/gems/bin/jekyll:25:in `<top (required)>'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/cli/exec.rb:59:in `load'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/cli/exec.rb:59:in `kernel_load'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/cli/exec.rb:23:in `run'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/cli.rb:456:in `exec'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/cli.rb:35:in `dispatch'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/cli.rb:29:in `start'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/exe/bundle:28:in `block in <top (required)>'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/lib/bundler/friendly_errors.rb:118:in `with_friendly_errors'
+	from /home/cb-admin/gems/gems/bundler-2.7.2/exe/bundle:20:in `<top (required)>'
+	from /home/cb-admin/gems/bin/bundle:25:in `load'
+	from /home/cb-admin/gems/bin/bundle:25:in `<main>'

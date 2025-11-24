@@ -1,0 +1,47 @@
+RubyGems Environment:
+  - RUBYGEMS VERSION: 3.4.20
+  - RUBY VERSION: 3.2.3 (2024-01-18 patchlevel 157) [x86_64-linux-gnu]
+  - INSTALLATION DIRECTORY: /var/lib/gems/3.2.0
+  - USER INSTALLATION DIRECTORY: /home/cb-admin/.local/share/gem/ruby/3.2.0
+  - RUBY EXECUTABLE: /usr/bin/ruby3.2
+  - GIT EXECUTABLE: /usr/bin/git
+  - EXECUTABLE DIRECTORY: /usr/local/bin
+  - SPEC CACHE DIRECTORY: /home/cb-admin/.local/share/gem/specs
+  - SYSTEM CONFIGURATION DIRECTORY: /etc
+  - RUBYGEMS PLATFORMS:
+     - ruby
+     - x86_64-linux-gnu
+  - GEM PATHS:
+     - /var/lib/gems/3.2.0
+     - /home/cb-admin/.local/share/gem/ruby/3.2.0
+     - /usr/local/lib/ruby/gems/3.2.0
+     - /usr/lib/ruby/gems/3.2.0
+     - /usr/lib/x86_64-linux-gnu/ruby/gems/3.2.0
+     - /usr/share/rubygems-integration/3.2.0
+     - /usr/share/rubygems-integration/all
+     - /usr/lib/x86_64-linux-gnu/rubygems-integration/3.2.0
+  - GEM CONFIGURATION:
+     - :update_sources => true
+     - :verbose => true
+     - :backtrace => true
+     - :bulk_threshold => 1000
+  - REMOTE SOURCES:
+     - https://rubygems.org/
+  - SHELL PATH:
+     - /usr/local/sbin
+     - /usr/local/bin
+     - /usr/sbin
+     - /usr/bin
+     - /sbin
+     - /bin
+     - /usr/games
+     - /usr/local/games
+     - /usr/lib/wsl/lib
+     - /mnt/c/Windows/system32
+     - /mnt/c/Windows
+     - /mnt/c/Windows/System32/Wbem
+     - /mnt/c/Windows/System32/WindowsPowerShell/v1.0/
+     - /mnt/c/Windows/System32/OpenSSH/
+     - /mnt/c/Program Files/Git/cmd
+     - /mnt/c/Users/cb-admin/AppData/Local/Microsoft/WindowsApps
+     - /mnt/c/Users/cb-admin/AppData/Local/GitHubDesktop/bin
