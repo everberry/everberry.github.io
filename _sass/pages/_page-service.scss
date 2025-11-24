@@ -2,11 +2,11 @@
   .content {
     > p {
       &:first-of-type {
-        font-size: 1.5rem;
-        line-height: 1.6;
+        font-size: 1.6rem;
+        line-height: 1.4;
         margin-bottom: 40px;
-        font-weight: 400;
-        color: $steel;
+        font-weight: regular;
+        color: rgb(104, 104, 104);
       }
     }
   }
