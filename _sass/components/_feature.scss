@@ -1,29 +1,43 @@
 .feature {
   height: 100%;
-  border: 1px solid $white-offset;
-  border-radius: 3px;
-  padding: 20px;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 32px 24px;
   background-color: #ffffff;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
   .feature-image {
     flex: 0 0 auto;
     width: 80px;
     height: 80px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   img {
     width: 100%;
     height: auto;
+    object-fit: contain;
   }
   .feature-title {
+    font-weight: 700;
+    margin-bottom: 12px;
   }
   .feature-content {
     margin-bottom: 0;
     margin-top: auto;
+    color: $steel;
   }
 }
