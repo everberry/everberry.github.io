@@ -20,7 +20,8 @@ bodyClass: "page-teams"
 
 <div class="container pt-6 pb-6">
     <div class="row">
-        {% assign team_collection = site.team | default: site.empty_array %}
+        {% assign empty_array = "" | split: "" %}
+        {% assign team_collection = site.team | default: empty_array %}
         {% assign promoted_teams = team_collection | where: "promoted", true | sort: "weight" %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
