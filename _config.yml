@@ -1,30 +1,15 @@
+title: "Everberry Events"
+description: "Everberry Events - Cultivating Connections"
+url: ""
+baseurl: ""
+
+logo:
+  desktop: "images/everberryevents/logo/Original_on_transparent.png"
   desktop_height: "32px"
   desktop_width: "120px"
 
-home:
-  limit_services: 6
-
-collections:
-  services:
-    output: true
-    sort_by: weight
-  team:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
-
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
 
 plugins:
   - jekyll-environment-variables
@@ -40,3 +25,14 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+  - about.md
+  - services.md
+  - team.md
+  - contact.md
+  - build_error.log
+  - debug.log
+  - gem_env.log
+  - gem_list.log
+  - builtatlightspeed.json
+  - _services
+  - _team
