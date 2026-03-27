@@ -5,6 +5,7 @@
   <title>{{ page.title }} - Coming Soon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="{{ page.description }}" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
   <link rel="icon" type="image/png" href="{{ '/images/everberryevents/logo/Original_on_transparent.png' | relative_url }}">
 
@@ -143,6 +144,6 @@
 
     <p class="coming-soon__footer">&copy; {{ 'now' | date: "%Y" }} {{ page.title }}. All rights reserved.</p>
   </main>
-  <script data-goatcounter="https://everberryevents.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://everberryevents.goatcounter.com/count" async src="https://gc.zgo.at/count.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
