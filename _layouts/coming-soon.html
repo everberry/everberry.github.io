@@ -5,7 +5,41 @@
   <title>{{ page.title }} - Coming Soon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="{{ page.description }}" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
   <link rel="icon" type="image/png" href="{{ '/images/everberryevents/logo/Original_on_transparent.png' | relative_url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:image" content="{{ page.logo | absolute_url }}" />
+  <meta property="og:site_name" content="{{ page.title }}" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.description }}" />
+  <meta name="twitter:image" content="{{ page.logo | absolute_url }}" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "{{ page.title }}",
+    "url": "{{ page.url | absolute_url }}",
+    "logo": "{{ page.logo | absolute_url }}",
+    "description": "{{ page.description }}",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "{{ site.data.contact.email }}",
+      "telephone": "{{ site.data.contact.phone }}",
+      "contactType": "customer service"
+    }
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
