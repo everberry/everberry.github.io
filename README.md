@@ -16,7 +16,7 @@ The site is currently displaying a "Coming Soon" landing page while the full web
 ```
 ├── _config.yml                 # Jekyll configuration
 ├── _data/
-│   └── contact.yml             # Contact details (email, phone)
+│   └── contact.yml             # Contact details (email, phone, Instagram)
 ├── _layouts/
 │   └── coming-soon.html        # Self-contained landing page layout
 ├── images/
@@ -45,3 +45,12 @@ Pushes to `main` trigger the GitHub Actions workflow which builds and deploys to
 - Apex domain (`everberryevents.com`) — A records pointing to GitHub Pages IPs
 - `www` subdomain — CNAME to `everberry.github.io`
 - GitHub Pages handles the apex → www redirect and SSL via Let's Encrypt
+- Cloudflare DNS records must be set to DNS only (grey cloud) for GitHub to provision and renew certificates
+
+## SEO
+
+The coming soon page includes Open Graph tags, Twitter Card meta, a canonical URL, and Organization structured data (JSON-LD).
+
+## Analytics
+
+Tracking via [GoatCounter](https://everberryevents.goatcounter.com) — a lightweight, privacy-friendly alternative to Google Analytics.
