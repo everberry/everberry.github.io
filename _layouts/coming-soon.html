@@ -117,25 +117,6 @@
     .coming-soon__contact a:hover {
       text-decoration: underline;
     }
-    .coming-soon__instagram {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      margin-top: 1rem;
-      padding: 0.35rem 1rem;
-      background-color: #4F46E5;
-      color: #ffffff;
-      font-size: 0.75rem;
-      font-weight: 600;
-      border-radius: 9999px;
-      text-decoration: none;
-      transition: background-color 0.2s;
-    }
-    .coming-soon__instagram:hover {
-      background-color: #4338ca;
-      text-decoration: none;
-      color: #ffffff;
-    }
     .coming-soon__footer {
       margin-top: 3rem;
       font-size: 0.8rem;
@@ -157,12 +138,9 @@
       <h2>Get in Touch</h2>
       <p>
         Email: <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a><br>
-        Phone: <a href="tel:{{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a>
+        Phone: <a href="tel:{{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a><br>
+        Instagram: <a href="https://instagram.com/ever_berry_events" target="_blank" rel="noopener noreferrer">@ever_berry_events</a>
       </p>
-      <a class="coming-soon__instagram" href="https://instagram.com/ever_berry_events" target="_blank" rel="noopener noreferrer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-        <span>@ever_berry_events</span>
-      </a>
     </div>
 
     <p class="coming-soon__footer">&copy; {{ 'now' | date: "%Y" }} {{ page.title }}. All rights reserved.</p>
